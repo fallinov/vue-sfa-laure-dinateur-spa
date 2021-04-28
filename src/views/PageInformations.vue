@@ -28,5 +28,8 @@
 <script>
 export default {
   name: 'PageInformations',
+  mounted() {
+    document.title = "Informations | Laure Dinateur";
+  }
 };
 </script>
