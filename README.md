@@ -65,7 +65,20 @@ dans le dossier `templates/` de ce projet.**
   dans les composants de page `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
 
 Étape 4 - Création d'un data store pour les réalisations
-* Ajouter les datas au composant, représentant la page d'accueil.
-* Parcourir les datas pour générer l'affichage des réalisations.
+* Ajouter des data au composant `PageAccueil.vue`
+  représentant les réalisations (image, titre, description) de la page d'accueil.
+* Parcourir les data pour générer l'affichage des réalisations.
+
+Etape 5 - Créer un composant `Realisation.vue` 
+* Créer un composant représentant une réalisation avec un ou plusieurs propriétés (props)
+lui permettant de recevoir les donnée de la réalisation.
+
+Etape 6 - Modifier le titre du document HTML `<title>` 
+* Ajouter le lifecycle hook `beforeMount` aux pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
+* Utiliser document.title pour modifier le titre du document en fonction de la page:
+  * `PageAccueil.vue` => `"Laure Dinateur | Graphiste"`
+  * `PageContact.vue` => `"Me contacter | Laure Dinateur"`
+  * `PageInformations.vue` => `"Informations | Laure Dinateur"`
+  
 
 
