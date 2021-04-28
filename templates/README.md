@@ -1,41 +1,14 @@
 # Exercice site Laure Dinateur en SPA
 
-## Avant de démarrer l'exercice
+## Objectifs
 
-1. Cloner ce dépôt
-1. Télécharger les paquets `npm install`
-1. Créer une nouvelle branche pour démarrer l'exercice
-
-## Commandes utiles
-### Télécharger les paquets
-```
-npm install
-```
-
-### Démarrer le serveur de développement
-```
-npm run serve
-```
-
-### Complier et minimiser pour la production
-```
-npm run build
-```
-
-### Linter son code
-```
-npm run lint
-```
-
-## Objectifs de l'exercice
-
-Transformer le site de Laure Dinateur https://kode.ch/101/lauredi/ en SPA en utilisant :
+Transformer le site actuel en SPA en utilisant :
 * Vue.js V2 : https://fr.vuejs.org/v2/guide/
 * Vue CLI : https://cli.vuejs.org/
 * Vue router : https://router.vuejs.org/
 * Composants monofichiers
 
-## Étapes
+## Étape
 
 Étape 1 - Création d'une nouvelle application Vue avec Vue CLI
 
@@ -46,11 +19,11 @@ Transformer le site de Laure Dinateur https://kode.ch/101/lauredi/ en SPA en uti
   dans App.vue et ajout du `<router-view>`
 
 Étape 3 - Intégration des contenus HTML/CSS et images
-* Copie des images : copier les images dans : `public/img/`
+* Copie des images : copier les images dans : `public/img/` 
 * Copie des CSS dans : `public/css/`
-* Modification de `public/index.html`
+* Modification de `public/index.html` 
   pour y lier les CSS et modifier les autres informations (titre, icone, ...)
-* Création de composants pour l'entête le pied de page
+* Création de composants pour l'entête le pied de page 
 * Ajout du HTML dans entête et pied de page
 * Ajout du HTML dans les différentes pages
 
