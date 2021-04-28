@@ -60,6 +60,9 @@ dans le dossier `templates/` de ce projet.**
 * Création de composants pour l'entête le pied de page
 * Ajout du HTML dans entête et pied de page
 * Ajout du HTML dans les différentes pages
+* Ajout de la classe "actif" au lien actif du menu.
+* (optionnel) Ajouter le code CSS spécifique aux pages
+  dans les composants de page `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
 
 Étape 4 - Création d'un data store pour les réalisations
 * Ajouter les datas au composant, représentant la page d'accueil.
