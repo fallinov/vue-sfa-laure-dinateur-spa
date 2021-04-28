@@ -43,13 +43,17 @@ dans le dossier `templates/` de ce projet.**
 Étape 1 - Cloner le dépôt, télécharger les paquets et créer une nouvelle branche
 
 Étape 2 - Création des pages et navigation (Vue router)
+
+Exemple de résultat
+![Exemple de résultat pour étape 2](_supports/etape-2.png "Exemple de résultat pour étape 2")
+
 * Créer les pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
   dans `src/views/` avec uniquement un `<h1>` contenant le titre de la page.
 * Définir les routes dans `src/router/index.js`, et les tester.
 * Création d'un menu de navigation `<router-link>` sommaire
   dans `src/App.vue` et ajout du `<router-view>`.
 
-![alt text](_supports/etape-2.png "Exemple de solution étape 2")
+
 
 Étape 3 - Intégration des contenus HTML/CSS et images
 * Copie des images : copier les images dans : `public/img/`
