@@ -40,9 +40,9 @@ dans le dossier `templates/` de ce projet.**
 
 ## Étapes
 
-Étape 1 - Cloner le dépôt, télécharger les paquets et créer une nouvelle branche
+### Étape 1 - Cloner le dépôt, télécharger les paquets et créer une nouvelle branche
 
-Étape 2 - Création des pages et navigation (Vue router)
+### Étape 2 - Création des pages et navigation (Vue router)
 
 ![Exemple de résultat pour étape 2](_supports/etape-2.png "Exemple de résultat pour étape 2")
 
@@ -64,21 +64,28 @@ dans le dossier `templates/` de ce projet.**
 * (optionnel) Ajouter le code CSS spécifique aux pages
   dans les composants de page `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
 
-Étape 4 - Création d'un data store pour les réalisations
+### Étape 4 - Création d'un data store pour les réalisations
 * Ajouter des data au composant `PageAccueil.vue`
   représentant les réalisations (image, titre, description) de la page d'accueil.
 * Parcourir les data pour générer l'affichage des réalisations.
 
-Etape 5 - Créer un composant `Realisation.vue` 
+### Etape 5 - Créer un composant `Realisation.vue` 
 * Créer un composant représentant une réalisation avec un ou plusieurs propriétés (props)
 lui permettant de recevoir les donnée de la réalisation.
 
-Etape 6 - Modifier le titre du document HTML `<title>` 
+### Etape 6 - Modifier le titre du document HTML `<title>` 
 * Ajouter le lifecycle hook `beforeMount` aux pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
 * Utiliser document.title pour modifier le titre du document en fonction de la page:
   * `PageAccueil.vue` => `"Laure Dinateur | Graphiste"`
   * `PageContact.vue` => `"Me contacter | Laure Dinateur"`
   * `PageInformations.vue` => `"Informations | Laure Dinateur"`
-  
 
+### Etape 7 - Modifier le titre du document HTML via le routeur `<title>`
+* Changer le titre du document à chaque changement de route en utilisant
+  l'intercepteur de navigation `router.afterEach((to, from)`
+  https://router.vuejs.org/fr/guide/advanced/navigation-guards.html#intercepteurs-de-navigation
+* Ajouter une propriété `titre` au champs meta de route
+  https://router.vuejs.org/fr/guide/advanced/meta.html#champs-meta-de-route
+* Note : Effectuer le changement du titre de la page dans un `Vue.nextTick`
+  https://fr.vuejs.org/v2/guide/reactivity.html#File-d%E2%80%99attente-de-mise-a-jour-asynchrone
 
