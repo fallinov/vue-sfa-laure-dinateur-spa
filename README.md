@@ -40,13 +40,14 @@ dans le dossier `templates/` de ce projet.**
 
 ## Étapes
 
-Étape 1 - Création d'une nouvelle application Vue avec Vue CLI
+Étape 1 - Cloner le dépôt, télécharger les paquets et créer une nouvelle branche
 
 Étape 2 - Création des pages et navigation (Vue router)
-* Créer des pages dans /views avec uniquement un `<h1>`
-* Mise en place des routes
+* Créer les pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
+  dans `src/views/` avec uniquement un `<h1>`
+* Définir les routes dans `src/router/index.js`, et les tester.
 * Création d'un menu de navigation `<router-link>` sommaire
-  dans App.vue et ajout du `<router-view>`
+  dans `src/App.vue` et ajout du `<router-view>`.
 
 Étape 3 - Intégration des contenus HTML/CSS et images
 * Copie des images : copier les images dans : `public/img/`
