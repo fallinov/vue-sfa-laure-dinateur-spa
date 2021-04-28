@@ -35,6 +35,9 @@ Transformer le site de Laure Dinateur https://kode.ch/101/lauredi/ en SPA en uti
 * Vue router : https://router.vuejs.org/
 * Composants monofichiers
 
+**Vous trouverez une copie du site statique Laure Dinateur
+dans le dossier `templates/` de ce projet.**
+
 ## Étapes
 
 Étape 1 - Création d'une nouvelle application Vue avec Vue CLI
