@@ -12,7 +12,7 @@ import EnteteDePage from '@/components/EnteteDePage.vue';
 
 export default {
   name: 'LaureDinateur',
-  components: { EnteteDePage, PiedDePage },
+  components: { EnteteDePage, PiedDePage }
 };
 </script>
 
