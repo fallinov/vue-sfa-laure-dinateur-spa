@@ -1,10 +1,10 @@
 <template>
   <header>
     <!-- Logo du site -->
-    <a class="logo" href="index.html">
+    <router-link class="logo" to="/">
       <div class="nom">Laure Dinateur</div>
       <div class="metier">Graphiste</div>
-    </a><nav><!-- Menu de navigation -->
+    </router-link><nav><!-- Menu de navigation -->
     <ul>
       <li>
         <router-link to="/" exact-active-class="actif">Accueil</router-link>
