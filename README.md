@@ -43,8 +43,11 @@ dans le dossier `templates/` de ce projet.**
 Étape 1 - Cloner le dépôt, télécharger les paquets et créer une nouvelle branche
 
 Étape 2 - Création des pages et navigation (Vue router)
+
+![Exemple de résultat pour étape 2](_supports/etape-2.png "Exemple de résultat pour étape 2")
+
 * Créer les pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
-  dans `src/views/` avec uniquement un `<h1>`
+  dans `src/views/` avec uniquement un `<h1>` contenant le titre de la page.
 * Définir les routes dans `src/router/index.js`, et les tester.
 * Création d'un menu de navigation `<router-link>` sommaire
   dans `src/App.vue` et ajout du `<router-view>`.
@@ -57,9 +60,25 @@ dans le dossier `templates/` de ce projet.**
 * Création de composants pour l'entête le pied de page
 * Ajout du HTML dans entête et pied de page
 * Ajout du HTML dans les différentes pages
+* Ajout de la classe "actif" au lien actif du menu.
+* (optionnel) Ajouter le code CSS spécifique aux pages
+  dans les composants de page `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
 
 Étape 4 - Création d'un data store pour les réalisations
-* Ajouter les datas au composant, représentant la page d'accueil.
-* Parcourir les datas pour générer l'affichage des réalisations.
+* Ajouter des data au composant `PageAccueil.vue`
+  représentant les réalisations (image, titre, description) de la page d'accueil.
+* Parcourir les data pour générer l'affichage des réalisations.
+
+Etape 5 - Créer un composant `Realisation.vue`
+* Créer un composant représentant une réalisation avec un ou plusieurs propriétés (props)
+  lui permettant de recevoir les donnée de la réalisation.
+
+Etape 6 - Modifier le titre du document HTML `<title>`
+* Ajouter le lifecycle hook `beforeMount` aux pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
+* Utiliser document.title pour modifier le titre du document en fonction de la page:
+  * `PageAccueil.vue` => `"Laure Dinateur | Graphiste"`
+  * `PageContact.vue` => `"Me contacter | Laure Dinateur"`
+  * `PageInformations.vue` => `"Informations | Laure Dinateur"`
+  
 
 
