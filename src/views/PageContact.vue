@@ -39,9 +39,6 @@
 
 <script>
 export default {
-  name: 'PageContact',
-  mounted() {
-    document.title = "Me contacter | Laure Dinateur";
-  }
+  name: 'PageContact'
 };
 </script>

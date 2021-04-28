@@ -51,9 +51,6 @@ export default {
         }
       ]
     };
-  },
-  mounted() {
-    document.title = "Laure Dinateur | Graphiste";
   }
 };
 </script>
