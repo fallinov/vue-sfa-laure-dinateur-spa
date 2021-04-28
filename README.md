@@ -44,7 +44,7 @@ dans le dossier `templates/` de ce projet.**
 
 Étape 2 - Création des pages et navigation (Vue router)
 * Créer les pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
-  dans `src/views/` avec uniquement un `<h1>`
+  dans `src/views/` avec uniquement un `<h1>` contenant le titre de la page.
 * Définir les routes dans `src/router/index.js`, et les tester.
 * Création d'un menu de navigation `<router-link>` sommaire
   dans `src/App.vue` et ajout du `<router-view>`.
