@@ -44,7 +44,6 @@ dans le dossier `templates/` de ce projet.**
 
 Étape 2 - Création des pages et navigation (Vue router)
 
-Exemple de résultat
 ![Exemple de résultat pour étape 2](_supports/etape-2.png "Exemple de résultat pour étape 2")
 
 * Créer les pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
