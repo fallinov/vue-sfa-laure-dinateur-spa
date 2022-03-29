@@ -52,7 +52,7 @@ dans le dossier `templates/` de ce projet.**
 * Création d'un menu de navigation `<router-link>` sommaire
   dans `src/App.vue` et ajout du `<router-view>`.
 
-Étape 3 - Intégration des contenus HTML/CSS et images
+### Étape 3 - Intégration des contenus HTML/CSS et images
 * Copie des images : copier les images dans : `public/img/`
 * Copie des CSS dans : `public/css/`
 * Modification de `public/index.html`
