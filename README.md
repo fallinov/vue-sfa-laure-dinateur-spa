@@ -75,7 +75,7 @@ lui permettant de recevoir les donnée de la réalisation.
 
 ### Etape 6 - Modifier le titre du document HTML `<title>` 
 * Ajouter le lifecycle hook `beforeMount` aux pages `PageAccueil.vue`, `PageContact.vue` et `PageInformations.vue`
-* Utiliser document.title pour modifier le titre du document en fonction de la page:
+* Utiliser `document.title` pour modifier le titre du document en fonction de la page:
   * `PageAccueil.vue` => `"Laure Dinateur | Graphiste"`
   * `PageContact.vue` => `"Me contacter | Laure Dinateur"`
   * `PageInformations.vue` => `"Informations | Laure Dinateur"`
