@@ -4,7 +4,7 @@
 
 1. Cloner ce dépôt
 2. Télécharger les paquets `npm install`
-3. Fixer les erreurs de codage `npm run install`
+3. Fixer les erreurs de codage `npm run lint`
 4. Créer une nouvelle branche pour démarrer l'exercice
 
 ## Commandes utiles
