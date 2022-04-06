@@ -3,8 +3,9 @@
 ## Avant de démarrer l'exercice
 
 1. Cloner ce dépôt
-1. Télécharger les paquets `npm install`
-1. Créer une nouvelle branche pour démarrer l'exercice
+2. Télécharger les paquets `npm install`
+3. Fixer les erreurs de codage `npm run install`
+4. Créer une nouvelle branche pour démarrer l'exercice
 
 ## Commandes utiles
 ### Télécharger les paquets
